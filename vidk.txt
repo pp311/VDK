@@ -1,0 +1,9 @@
+bo mạch arduino unoR3
+dây nối 
+nút nhấn
+
+
+
+Chương 1: Tổng quan về arduino
+Arduino Ide
+6 chân tương tự - chân vào
