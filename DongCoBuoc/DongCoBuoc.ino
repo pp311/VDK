@@ -13,17 +13,13 @@ void setup() {
   Serial.begin(9600);
 }
 
-void loop() {
-  // step one revolution  in one direction:
-  for(int i=7;i<13;i++)
-  {digitalWrite(i,HIGH);
-  delay(300);}
-  // Serial.println("clockwise");
-  // myStepper.step(stepsPerRevolution/8);
-  // delay(500);
+void loop() { 
+    Serial.println("clockwise");
+  myStepper.step(stepsPerRevolution/8);
+  delay(500);
 
-  // // step one revolution in the other direction:
-  // Serial.println("counterclockwise");
-  //  myStepper.step(-stepsPerRevolution/8);
-  //delay(500);
+  // step one revolution in the other direction:
+  Serial.println("counterclockwise");
+   myStepper.step(-stepsPerRevolution/8);
+  delay(500);
 }

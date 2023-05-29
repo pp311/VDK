@@ -12,7 +12,7 @@ void loop() {
   if (val == 200)
     val = 1000;
   else
-    val = 800;
+    val = 200;
   val = map(val, 0, 1023, 0, 180);     // scale it for use with the servo (value between 0 and 180)
   myservo.write(val);                  // sets the servo position according to the scaled value
   delay(2000);                           // waits for the servo to get there
