@@ -1,3 +1,5 @@
+//Cai thu vien DHT11 cua adafruit
+
 int loa = 11;
 const int cambien = 2;
 const int led = 13;
